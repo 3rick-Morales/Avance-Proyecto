@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Notas</string>
+   <string>Registro de notas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconos.qrc">
+    <normaloff>:/resource/registros.png</normaloff>:/resource/registros.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_6">
@@ -354,6 +358,10 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="action_Acerca_de">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/informacion.png</normaloff>:/resource/informacion.png</iconset>
+   </property>
    <property name="text">
     <string>&amp;Acerca de</string>
    </property>
@@ -384,31 +392,53 @@
    </property>
   </action>
   <action name="mnuAbrir">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/caja.png</normaloff>:/resource/caja.png</iconset>
+   </property>
    <property name="text">
     <string>Abrir</string>
    </property>
   </action>
   <action name="mnuGuardar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/salvar.png</normaloff>:/resource/salvar.png</iconset>
+   </property>
    <property name="text">
     <string>Guardar</string>
    </property>
   </action>
   <action name="mnuListar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/listar.png</normaloff>:/resource/listar.png</iconset>
+   </property>
    <property name="text">
     <string>Listar Estudiantes</string>
    </property>
   </action>
   <action name="mnuAgregar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/añadir.png</normaloff>:/resource/añadir.png</iconset>
+   </property>
    <property name="text">
     <string>Agregar Notas</string>
    </property>
   </action>
   <action name="mnuSalir">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/resource/salida.png</normaloff>:/resource/salida.png</iconset>
+   </property>
    <property name="text">
     <string>Salir</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
  <connections/>
 </ui>
